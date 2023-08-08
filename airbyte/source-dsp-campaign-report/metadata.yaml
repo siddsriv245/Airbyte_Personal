@@ -1,0 +1,22 @@
+data:
+  allowedHosts:
+    hosts:
+      - TODO # Please change to the hostname of the source.
+  registries:
+    oss:
+      enabled: false
+  connectorSubtype: api
+  connectorType: source
+  definitionId: 173a9cd6-ac3b-4f0e-9c92-abee1003845b
+  dockerImageTag: 0.1.0
+  dockerRepository: airbyte/source-dsp-campaign-report
+  githubIssueLabel: source-dsp-campaign-report
+  icon: dsp-campaign-report.svg
+  license: MIT
+  name: Dsp Campaign Report
+  releaseDate: TODO
+  releaseStage: alpha
+  documentationUrl: https://docs.airbyte.com/integrations/sources/dsp-campaign-report
+  tags:
+    - language:python
+metadataSpecVersion: "1.0"

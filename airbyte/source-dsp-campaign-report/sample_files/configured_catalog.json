@@ -1,0 +1,2236 @@
+{
+  "streams": [
+    {
+      "sync_mode" : "full_refresh",
+      "destination_sync_mode" : "overwrite",
+      "stream" : {
+        "name" : "campaigns_1",
+        "supported_sync_modes" : [
+          "full_refresh",
+          "incremental"
+        ],
+        "source_defined_cursor" : false,
+        "json_schema" : {
+          "type" : "object",
+          "properties" : {
+            "CTR" : {
+              "type" : "string"
+            },
+            "mashupAddToCartClickCVR14d" : {
+              "type" : "string"
+            },
+            "ecpvc" : {
+              "type" : "string"
+            },
+            "subscriptionButtonViews14d" : {
+              "type" : "string"
+            },
+            "widgetLoadCPA14d" : {
+              "type" : "string"
+            },
+            "orderBudget" : {
+              "type" : "string"
+            },
+            "playTrailers14d" : {
+              "type" : "string"
+            },
+            "atc14d" : {
+              "type" : "string"
+            },
+            "rentals14d" : {
+              "type" : "string"
+            },
+            "addToWatchlist14d" : {
+              "type" : "string"
+            },
+            "purchaseRate14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1CVR" : {
+              "type" : "string"
+            },
+            "videoDownloadsClicks14d" : {
+              "type" : "string"
+            },
+            "application14d" : {
+              "type" : "string"
+            },
+            "clickOnRedirectCPA14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4" : {
+              "type" : "string"
+            },
+            "surveyFinishClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6" : {
+              "type" : "string"
+            },
+            "emailLoad14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2Clicks" : {
+              "type" : "string"
+            },
+            "mashupBackupImage" : {
+              "type" : "string"
+            },
+            "eCPAtc14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7" : {
+              "type" : "string"
+            },
+            "mashupClickToPageCPA" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3CPA" : {
+              "type" : "string"
+            },
+            "storeLocatorPage14d" : {
+              "type" : "string"
+            },
+            "invalidImpressions" : {
+              "type" : "string"
+            },
+            "grossImpressions" : {
+              "type" : "string"
+            },
+            "submitButtonClicks14d" : {
+              "type" : "string"
+            },
+            "dropDownSelectionClicks14d" : {
+              "type" : "string"
+            },
+            "referralClicks14d" : {
+              "type" : "string"
+            },
+            "videoStreamsViews14d" : {
+              "type" : "string"
+            },
+            "videoCompletionRate" : {
+              "type" : "string"
+            },
+            "registrationForm14d" : {
+              "type" : "string"
+            },
+            "bannerInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "signUpPageCVR14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveCVR14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonCVR14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6CVR" : {
+              "type" : "string"
+            },
+            "videoFirstQuartile" : {
+              "type" : "string"
+            },
+            "mashupBackupImageViews" : {
+              "type" : "string"
+            },
+            "homepageVisit14d" : {
+              "type" : "string"
+            },
+            "eCPDVP14d" : {
+              "type" : "string"
+            },
+            "messageSentViews14d" : {
+              "type" : "string"
+            },
+            "rentalRate14d" : {
+              "type" : "string"
+            },
+            "videoMute" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3Clicks" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickCPA14d" : {
+              "type" : "string"
+            },
+            "ecpvd14d" : {
+              "type" : "string"
+            },
+            "gameLoadCVR14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPageClicks" : {
+              "type" : "string"
+            },
+            "mashupAddToCartCPA14d" : {
+              "type" : "string"
+            },
+            "newToBrandPurchaseRate14d" : {
+              "type" : "string"
+            },
+            "videoStart" : {
+              "type" : "string"
+            },
+            "eCPDPV14d" : {
+              "type" : "string"
+            },
+            "signUpViews14d" : {
+              "type" : "string"
+            },
+            "surveyFinishCVR14d" : {
+              "type" : "string"
+            },
+            "mashupBackupImageClicks" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlays14d" : {
+              "type" : "string"
+            },
+            "emailLoadCPA14d" : {
+              "type" : "string"
+            },
+            "atlr14d" : {
+              "type" : "string"
+            },
+            "orderName" : {
+              "type" : "string"
+            },
+            "videoCompletedViews" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStarts14d" : {
+              "type" : "string"
+            },
+            "submitButtonViews14d" : {
+              "type" : "string"
+            },
+            "gameInteraction14d" : {
+              "type" : "string"
+            },
+            "applicationCPA14d" : {
+              "type" : "string"
+            },
+            "amazonAudienceFee" : {
+              "type" : "string"
+            },
+            "videoDownloadRate14d" : {
+              "type" : "string"
+            },
+            "subscriptionButtonCPA14d" : {
+              "type" : "string"
+            },
+            "widgetLoadClicks14d" : {
+              "type" : "string"
+            },
+            "acceptCPA14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistClicks14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickClicks14d" : {
+              "type" : "string"
+            },
+            "creativeType" : {
+              "type" : "string"
+            },
+            "referralCPA14d" : {
+              "type" : "string"
+            },
+            "signUpCVR14d" : {
+              "type" : "string"
+            },
+            "successPageViews14d" : {
+              "type" : "string"
+            },
+            "homepageVisitCPA14d" : {
+              "type" : "string"
+            },
+            "purchasesViews14d" : {
+              "type" : "string"
+            },
+            "widgetInteraction14d" : {
+              "type" : "string"
+            },
+            "registrationFormClicks14d" : {
+              "type" : "string"
+            },
+            "videoComplete" : {
+              "type" : "string"
+            },
+            "offAmazonPurchasesClicks14d" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlaysClicks14d" : {
+              "type" : "string"
+            },
+            "videoPause" : {
+              "type" : "string"
+            },
+            "referralCVR14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonViews14d" : {
+              "type" : "string"
+            },
+            "mashupAddToCartClicks14d" : {
+              "type" : "string"
+            },
+            "atcClicks14d" : {
+              "type" : "string"
+            },
+            "subscriptionButtonClicks14d" : {
+              "type" : "string"
+            },
+            "declineClicks14d" : {
+              "type" : "string"
+            },
+            "invalidClickThroughs" : {
+              "type" : "string"
+            },
+            "bannerInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "surveyStartCVR14d" : {
+              "type" : "string"
+            },
+            "dpvr14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlist14d" : {
+              "type" : "string"
+            },
+            "thankYouPage14d" : {
+              "type" : "string"
+            },
+            "brandSearchClicks14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistCVR14d" : {
+              "type" : "string"
+            },
+            "rentalsClicks14d" : {
+              "type" : "string"
+            },
+            "subscribe14d" : {
+              "type" : "string"
+            },
+            "bannerInteraction14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4Clicks" : {
+              "type" : "string"
+            },
+            "storeLocatorPageCPA14d" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSave14d" : {
+              "type" : "string"
+            },
+            "subscriptionButton14d" : {
+              "type" : "string"
+            },
+            "widgetInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "subscribeViews14d" : {
+              "type" : "string"
+            },
+            "applicationCVR14d" : {
+              "type" : "string"
+            },
+            "playTrailerRate14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6Views" : {
+              "type" : "string"
+            },
+            "marketingLandingPageClicks14d" : {
+              "type" : "string"
+            },
+            "mashupBackupImageCVR" : {
+              "type" : "string"
+            },
+            "offAmazonPurchaseRate14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistCPA14d" : {
+              "type" : "string"
+            },
+            "orderExternalId" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2CVR" : {
+              "type" : "string"
+            },
+            "surveyFinishViews14d" : {
+              "type" : "string"
+            },
+            "surveyStartCPA14d" : {
+              "type" : "string"
+            },
+            "dropDownSelectionViews14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageClicks14d" : {
+              "type" : "string"
+            },
+            "addToWatchlistCVR14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickViews14d" : {
+              "type" : "string"
+            },
+            "totalCost" : {
+              "type" : "string"
+            },
+            "emailInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "offAmazonPurchasesViews14d" : {
+              "type" : "string"
+            },
+            "addToWatchlistViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4CPA" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartCVR14d" : {
+              "type" : "string"
+            },
+            "orderEndDate" : {
+              "type" : "string"
+            },
+            "dropDownSelection14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1Views" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickCVR14d" : {
+              "type" : "string"
+            },
+            "emailLoadCVR14d" : {
+              "type" : "string"
+            },
+            "surveyStart14d" : {
+              "type" : "string"
+            },
+            "dpvViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7Clicks" : {
+              "type" : "string"
+            },
+            "atlViews14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveClick14d" : {
+              "type" : "string"
+            },
+            "addedToShoppingCart14d" : {
+              "type" : "string"
+            },
+            "newToBrandECPP14d" : {
+              "type" : "string"
+            },
+            "eCPM" : {
+              "type" : "string"
+            },
+            "messageSentClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7CVR" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartsCPA14d" : {
+              "type" : "string"
+            },
+            "gameInteractionViews14d" : {
+              "type" : "string"
+            },
+            "subscribeClicks14d" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlayRate14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7Views" : {
+              "type" : "string"
+            },
+            "eCPC" : {
+              "type" : "string"
+            },
+            "widgetLoad14d" : {
+              "type" : "string"
+            },
+            "eCPPT14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPageViews14d" : {
+              "type" : "string"
+            },
+            "playTrailersViews14d" : {
+              "type" : "string"
+            },
+            "offAmazonViews14d" : {
+              "type" : "string"
+            },
+            "pRPVViews14d" : {
+              "type" : "string"
+            },
+            "videoCompletedCPA" : {
+              "type" : "string"
+            },
+            "lineItemStartDate" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSaveRate14d" : {
+              "type" : "string"
+            },
+            "declineCVR14d" : {
+              "type" : "string"
+            },
+            "entityId" : {
+              "type" : "string"
+            },
+            "widgetInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartClicks14d" : {
+              "type" : "string"
+            },
+            "bannerInteractionViews14d" : {
+              "type" : "string"
+            },
+            "creativeID" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSaveViews14d" : {
+              "type" : "string"
+            },
+            "acceptClicks14d" : {
+              "type" : "string"
+            },
+            "addToWatchlistCPA14d" : {
+              "type" : "string"
+            },
+            "pRPVClicks14d" : {
+              "type" : "string"
+            },
+            "rentalsViews14d" : {
+              "type" : "string"
+            },
+            "advertiserTimezone" : {
+              "type" : "string"
+            },
+            "storeLocatorPageCVR14d" : {
+              "type" : "string"
+            },
+            "storeLocatorPageViews14d" : {
+              "type" : "string"
+            },
+            "invalidClickThroughsRate" : {
+              "type" : "string"
+            },
+            "homepageVisitCVR14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6Clicks" : {
+              "type" : "string"
+            },
+            "clickOnRedirectCVR14d" : {
+              "type" : "string"
+            },
+            "widgetLoadCVR14d" : {
+              "type" : "string"
+            },
+            "signUpCPA14d" : {
+              "type" : "string"
+            },
+            "orderId" : {
+              "type" : "string"
+            },
+            "applicationClicks14d" : {
+              "type" : "string"
+            },
+            "lineItemName" : {
+              "type" : "string"
+            },
+            "mashupAddToCart14d" : {
+              "type" : "string"
+            },
+            "submitButton14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5Clicks" : {
+              "type" : "string"
+            },
+            "clickOnRedirectClicks14d" : {
+              "type" : "string"
+            },
+            "grossClickThroughs" : {
+              "type" : "string"
+            },
+            "eCPVS14d" : {
+              "type" : "string"
+            },
+            "purchasesClicks14d" : {
+              "type" : "string"
+            },
+            "emailLoadClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6CPA" : {
+              "type" : "string"
+            },
+            "videoDownloadsViews14d" : {
+              "type" : "string"
+            },
+            "pRPV14d" : {
+              "type" : "string"
+            },
+            "thankYouPageCPA14d" : {
+              "type" : "string"
+            },
+            "thankYouPageClicks14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonCPA14d" : {
+              "type" : "string"
+            },
+            "emailLoadViews14d" : {
+              "type" : "string"
+            },
+            "gameLoadViews14d" : {
+              "type" : "string"
+            },
+            "amazonPlatformFee" : {
+              "type" : "string"
+            },
+            "registrationFormCVR14d" : {
+              "type" : "string"
+            },
+            "signUpPageCPA14d" : {
+              "type" : "string"
+            },
+            "declineCPA14d" : {
+              "type" : "string"
+            },
+            "videoStartedCVR" : {
+              "type" : "string"
+            },
+            "messageSent14d" : {
+              "type" : "string"
+            },
+            "creativeAdId" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClick14d" : {
+              "type" : "string"
+            },
+            "creativeName" : {
+              "type" : "string"
+            },
+            "widgetInteractionViews14d" : {
+              "type" : "string"
+            },
+            "homepageVisitViews14d" : {
+              "type" : "string"
+            },
+            "videoStartedClicks" : {
+              "type" : "string"
+            },
+            "dpvClicks14d" : {
+              "type" : "string"
+            },
+            "videoResume" : {
+              "type" : "string"
+            },
+            "playerTrailersClicks14d" : {
+              "type" : "string"
+            },
+            "clickOnRedirect14d" : {
+              "type" : "string"
+            },
+            "emailInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "emailInteractionViews14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageCVR14d" : {
+              "type" : "string"
+            },
+            "signUp14d" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlaysViews14d" : {
+              "type" : "string"
+            },
+            "acceptCVR14d" : {
+              "type" : "string"
+            },
+            "surveyFinish14d" : {
+              "type" : "string"
+            },
+            "surveyFinishCPA14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonClicks14d" : {
+              "type" : "string"
+            },
+            "clickThroughs" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartClicks14d" : {
+              "type" : "string"
+            },
+            "signUpPageClicks14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistViews14d" : {
+              "type" : "string"
+            },
+            "brandSearchCPA14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPageViews" : {
+              "type" : "string"
+            },
+            "videoCompleted" : {
+              "type" : "string"
+            },
+            "videoStreamsRate14d" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartCVR14d" : {
+              "type" : "string"
+            },
+            "eCPP14d" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSaveClicks14d" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickClicks14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSave14d" : {
+              "type" : "string"
+            },
+            "referralViews14d" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartCPA14d" : {
+              "type" : "string"
+            },
+            "offAmazonClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3CVR" : {
+              "type" : "string"
+            },
+            "submitButtonCPA14d" : {
+              "type" : "string"
+            },
+            "accept14d" : {
+              "type" : "string"
+            },
+            "videoStreamsClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5CPA" : {
+              "type" : "string"
+            },
+            "videoEndClicks" : {
+              "type" : "string"
+            },
+            "lineItemId" : {
+              "type" : "string"
+            },
+            "referral14d" : {
+              "type" : "string"
+            },
+            "widgetInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "impressions" : {
+              "type" : "string"
+            },
+            "advertiserId" : {
+              "type" : "string"
+            },
+            "acceptViews14d" : {
+              "type" : "string"
+            },
+            "bannerInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2Views" : {
+              "type" : "string"
+            },
+            "atl14d" : {
+              "type" : "string"
+            },
+            "signUpPageViews14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPageCVR" : {
+              "type" : "string"
+            },
+            "atlClicks14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveCPA14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5Views" : {
+              "type" : "string"
+            },
+            "newToBrandPurchasesClicks14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPage14d" : {
+              "type" : "string"
+            },
+            "signUpClicks14d" : {
+              "type" : "string"
+            },
+            "offAmazonCVR14d" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartViews14d" : {
+              "type" : "string"
+            },
+            "date" : {
+              "type" : "string"
+            },
+            "signUpPage14d" : {
+              "type" : "string"
+            },
+            "eCPnewSubscribeAndSave14d" : {
+              "type" : "string"
+            },
+            "applicationViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4Views" : {
+              "type" : "string"
+            },
+            "newToBrandPurchases14d" : {
+              "type" : "string"
+            },
+            "messageSentCPA14d" : {
+              "type" : "string"
+            },
+            "messageSentCVR14d" : {
+              "type" : "string"
+            },
+            "mashupAddToCartViews14d" : {
+              "type" : "string"
+            },
+            "videoMidpoint" : {
+              "type" : "string"
+            },
+            "emailInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "subscribeCPA14d" : {
+              "type" : "string"
+            },
+            "offAmazonPurchases14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2CPA" : {
+              "type" : "string"
+            },
+            "storeLocatorPageClicks14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveClickViews14d" : {
+              "type" : "string"
+            },
+            "gameLoadClicks14d" : {
+              "type" : "string"
+            },
+            "videoStartedViews" : {
+              "type" : "string"
+            },
+            "thankYouPageViews14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPageCVR14d" : {
+              "type" : "string"
+            },
+            "subscribeCVR14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPageCPA14d" : {
+              "type" : "string"
+            },
+            "videoStreams14d" : {
+              "type" : "string"
+            },
+            "mashupBackupImageCPA" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5CVR" : {
+              "type" : "string"
+            },
+            "widgetLoadViews14d" : {
+              "type" : "string"
+            },
+            "dropDownSelectionCPA14d" : {
+              "type" : "string"
+            },
+            "successPageCPA14d" : {
+              "type" : "string"
+            },
+            "ecpr14d" : {
+              "type" : "string"
+            },
+            "lineItemBudget" : {
+              "type" : "string"
+            },
+            "subscriptionButtonCVR14d" : {
+              "type" : "string"
+            },
+            "videoStarted" : {
+              "type" : "string"
+            },
+            "orderCurrency" : {
+              "type" : "string"
+            },
+            "surveyStartClicks14d" : {
+              "type" : "string"
+            },
+            "decline14d" : {
+              "type" : "string"
+            },
+            "videoCompletedCVR" : {
+              "type" : "string"
+            },
+            "atcr14d" : {
+              "type" : "string"
+            },
+            "gameInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "creativeSize" : {
+              "type" : "string"
+            },
+            "clickOnRedirectViews14d" : {
+              "type" : "string"
+            },
+            "lineItemEndDate" : {
+              "type" : "string"
+            },
+            "invalidImpressionRate" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3Views" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7CPA" : {
+              "type" : "string"
+            },
+            "gameInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "videoUnmute" : {
+              "type" : "string"
+            },
+            "brandSearchViews14d" : {
+              "type" : "string"
+            },
+            "gameLoad14d" : {
+              "type" : "string"
+            },
+            "atcViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1Clicks" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageViews14d" : {
+              "type" : "string"
+            },
+            "surveyStartViews14d" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartViews14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickCPA14d" : {
+              "type" : "string"
+            },
+            "brandSearch14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPage" : {
+              "type" : "string"
+            },
+            "addToWatchlistClicks14d" : {
+              "type" : "string"
+            },
+            "lineItemExternalId" : {
+              "type" : "string"
+            },
+            "supplyCost" : {
+              "type" : "string"
+            },
+            "submitButtonCVR14d" : {
+              "type" : "string"
+            },
+            "offAmazonCPA14d" : {
+              "type" : "string"
+            },
+            "videoStartedCPA" : {
+              "type" : "string"
+            },
+            "advertiserName" : {
+              "type" : "string"
+            },
+            "videoThirdQuartile" : {
+              "type" : "string"
+            },
+            "successPageClicks14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageCPA14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickCVR14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPage14d" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickViews14d" : {
+              "type" : "string"
+            },
+            "brandSearchRate14d" : {
+              "type" : "string"
+            },
+            "declineViews14d" : {
+              "type" : "string"
+            },
+            "orderStartDate" : {
+              "type" : "string"
+            },
+            "advertiserCountry" : {
+              "type" : "string"
+            },
+            "dropDownSelectionCVR14d" : {
+              "type" : "string"
+            },
+            "pRPVr14d" : {
+              "type" : "string"
+            },
+            "homepageVisitClicks14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClick14d" : {
+              "type" : "string"
+            },
+            "registrationFormCPA14d" : {
+              "type" : "string"
+            },
+            "offAmazonECPP14d" : {
+              "type" : "string"
+            },
+            "offAmazonConversions14d" : {
+              "type" : "string"
+            },
+            "videoDownloads14d" : {
+              "type" : "string"
+            },
+            "eCPPRPV14d" : {
+              "type" : "string"
+            },
+            "emailInteraction14d" : {
+              "type" : "string"
+            },
+            "registrationFormViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1CPA" : {
+              "type" : "string"
+            },
+            "successPageCVR14d" : {
+              "type" : "string"
+            },
+            "purchases14d" : {
+              "type" : "string"
+            },
+            "gameLoadCPA14d" : {
+              "type" : "string"
+            },
+            "percentOfPurchasesNewToBrand14d" : {
+              "type" : "string"
+            },
+            "dpv14d" : {
+              "type" : "string"
+            },
+            "purchaseButton14d" : {
+              "type" : "string"
+            },
+            "newToBrandPurchasesViews14d" : {
+              "type" : "string"
+            },
+            "successPage14d" : {
+              "type" : "string"
+            },
+            "gameInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "eCPAtl14d" : {
+              "type" : "string"
+            },
+            "thankYouPageCVR14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4CVR" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    },
+    {
+      "sync_mode" : "full_refresh",
+      "destination_sync_mode" : "overwrite",
+      "stream" : {
+        "name" : "campaigns_2",
+        "supported_sync_modes" : [
+          "full_refresh",
+          "incremental"
+        ],
+        "source_defined_cursor" : false,
+        "json_schema" : {
+          "type" : "object",
+          "properties" : {
+            "CTR" : {
+              "type" : "string"
+            },
+            "mashupAddToCartClickCVR14d" : {
+              "type" : "string"
+            },
+            "ecpvc" : {
+              "type" : "string"
+            },
+            "subscriptionButtonViews14d" : {
+              "type" : "string"
+            },
+            "widgetLoadCPA14d" : {
+              "type" : "string"
+            },
+            "orderBudget" : {
+              "type" : "string"
+            },
+            "playTrailers14d" : {
+              "type" : "string"
+            },
+            "atc14d" : {
+              "type" : "string"
+            },
+            "rentals14d" : {
+              "type" : "string"
+            },
+            "addToWatchlist14d" : {
+              "type" : "string"
+            },
+            "purchaseRate14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1CVR" : {
+              "type" : "string"
+            },
+            "videoDownloadsClicks14d" : {
+              "type" : "string"
+            },
+            "application14d" : {
+              "type" : "string"
+            },
+            "clickOnRedirectCPA14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4" : {
+              "type" : "string"
+            },
+            "surveyFinishClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6" : {
+              "type" : "string"
+            },
+            "emailLoad14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2Clicks" : {
+              "type" : "string"
+            },
+            "mashupBackupImage" : {
+              "type" : "string"
+            },
+            "eCPAtc14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7" : {
+              "type" : "string"
+            },
+            "mashupClickToPageCPA" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3CPA" : {
+              "type" : "string"
+            },
+            "storeLocatorPage14d" : {
+              "type" : "string"
+            },
+            "invalidImpressions" : {
+              "type" : "string"
+            },
+            "grossImpressions" : {
+              "type" : "string"
+            },
+            "submitButtonClicks14d" : {
+              "type" : "string"
+            },
+            "dropDownSelectionClicks14d" : {
+              "type" : "string"
+            },
+            "referralClicks14d" : {
+              "type" : "string"
+            },
+            "videoStreamsViews14d" : {
+              "type" : "string"
+            },
+            "videoCompletionRate" : {
+              "type" : "string"
+            },
+            "registrationForm14d" : {
+              "type" : "string"
+            },
+            "bannerInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "signUpPageCVR14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveCVR14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonCVR14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6CVR" : {
+              "type" : "string"
+            },
+            "videoFirstQuartile" : {
+              "type" : "string"
+            },
+            "mashupBackupImageViews" : {
+              "type" : "string"
+            },
+            "homepageVisit14d" : {
+              "type" : "string"
+            },
+            "eCPDVP14d" : {
+              "type" : "string"
+            },
+            "messageSentViews14d" : {
+              "type" : "string"
+            },
+            "rentalRate14d" : {
+              "type" : "string"
+            },
+            "videoMute" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3Clicks" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickCPA14d" : {
+              "type" : "string"
+            },
+            "ecpvd14d" : {
+              "type" : "string"
+            },
+            "gameLoadCVR14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPageClicks" : {
+              "type" : "string"
+            },
+            "mashupAddToCartCPA14d" : {
+              "type" : "string"
+            },
+            "newToBrandPurchaseRate14d" : {
+              "type" : "string"
+            },
+            "videoStart" : {
+              "type" : "string"
+            },
+            "eCPDPV14d" : {
+              "type" : "string"
+            },
+            "signUpViews14d" : {
+              "type" : "string"
+            },
+            "surveyFinishCVR14d" : {
+              "type" : "string"
+            },
+            "mashupBackupImageClicks" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlays14d" : {
+              "type" : "string"
+            },
+            "emailLoadCPA14d" : {
+              "type" : "string"
+            },
+            "atlr14d" : {
+              "type" : "string"
+            },
+            "orderName" : {
+              "type" : "string"
+            },
+            "videoCompletedViews" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStarts14d" : {
+              "type" : "string"
+            },
+            "submitButtonViews14d" : {
+              "type" : "string"
+            },
+            "gameInteraction14d" : {
+              "type" : "string"
+            },
+            "applicationCPA14d" : {
+              "type" : "string"
+            },
+            "amazonAudienceFee" : {
+              "type" : "string"
+            },
+            "videoDownloadRate14d" : {
+              "type" : "string"
+            },
+            "subscriptionButtonCPA14d" : {
+              "type" : "string"
+            },
+            "widgetLoadClicks14d" : {
+              "type" : "string"
+            },
+            "acceptCPA14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistClicks14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickClicks14d" : {
+              "type" : "string"
+            },
+            "creativeType" : {
+              "type" : "string"
+            },
+            "referralCPA14d" : {
+              "type" : "string"
+            },
+            "signUpCVR14d" : {
+              "type" : "string"
+            },
+            "successPageViews14d" : {
+              "type" : "string"
+            },
+            "homepageVisitCPA14d" : {
+              "type" : "string"
+            },
+            "purchasesViews14d" : {
+              "type" : "string"
+            },
+            "widgetInteraction14d" : {
+              "type" : "string"
+            },
+            "registrationFormClicks14d" : {
+              "type" : "string"
+            },
+            "videoComplete" : {
+              "type" : "string"
+            },
+            "offAmazonPurchasesClicks14d" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlaysClicks14d" : {
+              "type" : "string"
+            },
+            "videoPause" : {
+              "type" : "string"
+            },
+            "referralCVR14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonViews14d" : {
+              "type" : "string"
+            },
+            "mashupAddToCartClicks14d" : {
+              "type" : "string"
+            },
+            "atcClicks14d" : {
+              "type" : "string"
+            },
+            "subscriptionButtonClicks14d" : {
+              "type" : "string"
+            },
+            "declineClicks14d" : {
+              "type" : "string"
+            },
+            "invalidClickThroughs" : {
+              "type" : "string"
+            },
+            "bannerInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "surveyStartCVR14d" : {
+              "type" : "string"
+            },
+            "dpvr14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlist14d" : {
+              "type" : "string"
+            },
+            "thankYouPage14d" : {
+              "type" : "string"
+            },
+            "brandSearchClicks14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistCVR14d" : {
+              "type" : "string"
+            },
+            "rentalsClicks14d" : {
+              "type" : "string"
+            },
+            "subscribe14d" : {
+              "type" : "string"
+            },
+            "bannerInteraction14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4Clicks" : {
+              "type" : "string"
+            },
+            "storeLocatorPageCPA14d" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSave14d" : {
+              "type" : "string"
+            },
+            "subscriptionButton14d" : {
+              "type" : "string"
+            },
+            "widgetInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "subscribeViews14d" : {
+              "type" : "string"
+            },
+            "applicationCVR14d" : {
+              "type" : "string"
+            },
+            "playTrailerRate14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6Views" : {
+              "type" : "string"
+            },
+            "marketingLandingPageClicks14d" : {
+              "type" : "string"
+            },
+            "mashupBackupImageCVR" : {
+              "type" : "string"
+            },
+            "offAmazonPurchaseRate14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistCPA14d" : {
+              "type" : "string"
+            },
+            "orderExternalId" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2CVR" : {
+              "type" : "string"
+            },
+            "surveyFinishViews14d" : {
+              "type" : "string"
+            },
+            "surveyStartCPA14d" : {
+              "type" : "string"
+            },
+            "dropDownSelectionViews14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageClicks14d" : {
+              "type" : "string"
+            },
+            "addToWatchlistCVR14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickViews14d" : {
+              "type" : "string"
+            },
+            "totalCost" : {
+              "type" : "string"
+            },
+            "emailInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "offAmazonPurchasesViews14d" : {
+              "type" : "string"
+            },
+            "addToWatchlistViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4CPA" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartCVR14d" : {
+              "type" : "string"
+            },
+            "orderEndDate" : {
+              "type" : "string"
+            },
+            "dropDownSelection14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1Views" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickCVR14d" : {
+              "type" : "string"
+            },
+            "emailLoadCVR14d" : {
+              "type" : "string"
+            },
+            "surveyStart14d" : {
+              "type" : "string"
+            },
+            "dpvViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7Clicks" : {
+              "type" : "string"
+            },
+            "atlViews14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveClick14d" : {
+              "type" : "string"
+            },
+            "addedToShoppingCart14d" : {
+              "type" : "string"
+            },
+            "newToBrandECPP14d" : {
+              "type" : "string"
+            },
+            "eCPM" : {
+              "type" : "string"
+            },
+            "messageSentClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7CVR" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartsCPA14d" : {
+              "type" : "string"
+            },
+            "gameInteractionViews14d" : {
+              "type" : "string"
+            },
+            "subscribeClicks14d" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlayRate14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7Views" : {
+              "type" : "string"
+            },
+            "eCPC" : {
+              "type" : "string"
+            },
+            "widgetLoad14d" : {
+              "type" : "string"
+            },
+            "eCPPT14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPageViews14d" : {
+              "type" : "string"
+            },
+            "playTrailersViews14d" : {
+              "type" : "string"
+            },
+            "offAmazonViews14d" : {
+              "type" : "string"
+            },
+            "pRPVViews14d" : {
+              "type" : "string"
+            },
+            "videoCompletedCPA" : {
+              "type" : "string"
+            },
+            "lineItemStartDate" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSaveRate14d" : {
+              "type" : "string"
+            },
+            "declineCVR14d" : {
+              "type" : "string"
+            },
+            "entityId" : {
+              "type" : "string"
+            },
+            "widgetInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartClicks14d" : {
+              "type" : "string"
+            },
+            "bannerInteractionViews14d" : {
+              "type" : "string"
+            },
+            "creativeID" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSaveViews14d" : {
+              "type" : "string"
+            },
+            "acceptClicks14d" : {
+              "type" : "string"
+            },
+            "addToWatchlistCPA14d" : {
+              "type" : "string"
+            },
+            "pRPVClicks14d" : {
+              "type" : "string"
+            },
+            "rentalsViews14d" : {
+              "type" : "string"
+            },
+            "advertiserTimezone" : {
+              "type" : "string"
+            },
+            "storeLocatorPageCVR14d" : {
+              "type" : "string"
+            },
+            "storeLocatorPageViews14d" : {
+              "type" : "string"
+            },
+            "invalidClickThroughsRate" : {
+              "type" : "string"
+            },
+            "homepageVisitCVR14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6Clicks" : {
+              "type" : "string"
+            },
+            "clickOnRedirectCVR14d" : {
+              "type" : "string"
+            },
+            "widgetLoadCVR14d" : {
+              "type" : "string"
+            },
+            "signUpCPA14d" : {
+              "type" : "string"
+            },
+            "orderId" : {
+              "type" : "string"
+            },
+            "applicationClicks14d" : {
+              "type" : "string"
+            },
+            "lineItemName" : {
+              "type" : "string"
+            },
+            "mashupAddToCart14d" : {
+              "type" : "string"
+            },
+            "submitButton14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5Clicks" : {
+              "type" : "string"
+            },
+            "clickOnRedirectClicks14d" : {
+              "type" : "string"
+            },
+            "grossClickThroughs" : {
+              "type" : "string"
+            },
+            "eCPVS14d" : {
+              "type" : "string"
+            },
+            "purchasesClicks14d" : {
+              "type" : "string"
+            },
+            "emailLoadClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement6CPA" : {
+              "type" : "string"
+            },
+            "videoDownloadsViews14d" : {
+              "type" : "string"
+            },
+            "pRPV14d" : {
+              "type" : "string"
+            },
+            "thankYouPageCPA14d" : {
+              "type" : "string"
+            },
+            "thankYouPageClicks14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonCPA14d" : {
+              "type" : "string"
+            },
+            "emailLoadViews14d" : {
+              "type" : "string"
+            },
+            "gameLoadViews14d" : {
+              "type" : "string"
+            },
+            "amazonPlatformFee" : {
+              "type" : "string"
+            },
+            "registrationFormCVR14d" : {
+              "type" : "string"
+            },
+            "signUpPageCPA14d" : {
+              "type" : "string"
+            },
+            "declineCPA14d" : {
+              "type" : "string"
+            },
+            "videoStartedCVR" : {
+              "type" : "string"
+            },
+            "messageSent14d" : {
+              "type" : "string"
+            },
+            "creativeAdId" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClick14d" : {
+              "type" : "string"
+            },
+            "creativeName" : {
+              "type" : "string"
+            },
+            "widgetInteractionViews14d" : {
+              "type" : "string"
+            },
+            "homepageVisitViews14d" : {
+              "type" : "string"
+            },
+            "videoStartedClicks" : {
+              "type" : "string"
+            },
+            "dpvClicks14d" : {
+              "type" : "string"
+            },
+            "videoResume" : {
+              "type" : "string"
+            },
+            "playerTrailersClicks14d" : {
+              "type" : "string"
+            },
+            "clickOnRedirect14d" : {
+              "type" : "string"
+            },
+            "emailInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "emailInteractionViews14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageCVR14d" : {
+              "type" : "string"
+            },
+            "signUp14d" : {
+              "type" : "string"
+            },
+            "downloadedVideoPlaysViews14d" : {
+              "type" : "string"
+            },
+            "acceptCVR14d" : {
+              "type" : "string"
+            },
+            "surveyFinish14d" : {
+              "type" : "string"
+            },
+            "surveyFinishCPA14d" : {
+              "type" : "string"
+            },
+            "purchaseButtonClicks14d" : {
+              "type" : "string"
+            },
+            "clickThroughs" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartClicks14d" : {
+              "type" : "string"
+            },
+            "signUpPageClicks14d" : {
+              "type" : "string"
+            },
+            "mashupAddToWishlistViews14d" : {
+              "type" : "string"
+            },
+            "brandSearchCPA14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPageViews" : {
+              "type" : "string"
+            },
+            "videoCompleted" : {
+              "type" : "string"
+            },
+            "videoStreamsRate14d" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartCVR14d" : {
+              "type" : "string"
+            },
+            "eCPP14d" : {
+              "type" : "string"
+            },
+            "newSubscribeAndSaveClicks14d" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickClicks14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSave14d" : {
+              "type" : "string"
+            },
+            "referralViews14d" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartCPA14d" : {
+              "type" : "string"
+            },
+            "offAmazonClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3CVR" : {
+              "type" : "string"
+            },
+            "submitButtonCPA14d" : {
+              "type" : "string"
+            },
+            "accept14d" : {
+              "type" : "string"
+            },
+            "videoStreamsClicks14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5CPA" : {
+              "type" : "string"
+            },
+            "videoEndClicks" : {
+              "type" : "string"
+            },
+            "lineItemId" : {
+              "type" : "string"
+            },
+            "referral14d" : {
+              "type" : "string"
+            },
+            "widgetInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "impressions" : {
+              "type" : "string"
+            },
+            "advertiserId" : {
+              "type" : "string"
+            },
+            "acceptViews14d" : {
+              "type" : "string"
+            },
+            "bannerInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2Views" : {
+              "type" : "string"
+            },
+            "atl14d" : {
+              "type" : "string"
+            },
+            "signUpPageViews14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPageCVR" : {
+              "type" : "string"
+            },
+            "atlClicks14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveCPA14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5Views" : {
+              "type" : "string"
+            },
+            "newToBrandPurchasesClicks14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPage14d" : {
+              "type" : "string"
+            },
+            "signUpClicks14d" : {
+              "type" : "string"
+            },
+            "offAmazonCVR14d" : {
+              "type" : "string"
+            },
+            "mobileAppFirstStartViews14d" : {
+              "type" : "string"
+            },
+            "date" : {
+              "type" : "string"
+            },
+            "signUpPage14d" : {
+              "type" : "string"
+            },
+            "eCPnewSubscribeAndSave14d" : {
+              "type" : "string"
+            },
+            "applicationViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4Views" : {
+              "type" : "string"
+            },
+            "newToBrandPurchases14d" : {
+              "type" : "string"
+            },
+            "messageSentCPA14d" : {
+              "type" : "string"
+            },
+            "messageSentCVR14d" : {
+              "type" : "string"
+            },
+            "mashupAddToCartViews14d" : {
+              "type" : "string"
+            },
+            "videoMidpoint" : {
+              "type" : "string"
+            },
+            "emailInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "subscribeCPA14d" : {
+              "type" : "string"
+            },
+            "offAmazonPurchases14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement2CPA" : {
+              "type" : "string"
+            },
+            "storeLocatorPageClicks14d" : {
+              "type" : "string"
+            },
+            "mashupSubscribeAndSaveClickViews14d" : {
+              "type" : "string"
+            },
+            "gameLoadClicks14d" : {
+              "type" : "string"
+            },
+            "videoStartedViews" : {
+              "type" : "string"
+            },
+            "thankYouPageViews14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPageCVR14d" : {
+              "type" : "string"
+            },
+            "subscribeCVR14d" : {
+              "type" : "string"
+            },
+            "marketingLandingPageCPA14d" : {
+              "type" : "string"
+            },
+            "videoStreams14d" : {
+              "type" : "string"
+            },
+            "mashupBackupImageCPA" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement5CVR" : {
+              "type" : "string"
+            },
+            "widgetLoadViews14d" : {
+              "type" : "string"
+            },
+            "dropDownSelectionCPA14d" : {
+              "type" : "string"
+            },
+            "successPageCPA14d" : {
+              "type" : "string"
+            },
+            "ecpr14d" : {
+              "type" : "string"
+            },
+            "lineItemBudget" : {
+              "type" : "string"
+            },
+            "subscriptionButtonCVR14d" : {
+              "type" : "string"
+            },
+            "videoStarted" : {
+              "type" : "string"
+            },
+            "orderCurrency" : {
+              "type" : "string"
+            },
+            "surveyStartClicks14d" : {
+              "type" : "string"
+            },
+            "decline14d" : {
+              "type" : "string"
+            },
+            "videoCompletedCVR" : {
+              "type" : "string"
+            },
+            "atcr14d" : {
+              "type" : "string"
+            },
+            "gameInteractionClicks14d" : {
+              "type" : "string"
+            },
+            "creativeSize" : {
+              "type" : "string"
+            },
+            "clickOnRedirectViews14d" : {
+              "type" : "string"
+            },
+            "lineItemEndDate" : {
+              "type" : "string"
+            },
+            "invalidImpressionRate" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement3Views" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement7CPA" : {
+              "type" : "string"
+            },
+            "gameInteractionCPA14d" : {
+              "type" : "string"
+            },
+            "videoUnmute" : {
+              "type" : "string"
+            },
+            "brandSearchViews14d" : {
+              "type" : "string"
+            },
+            "gameLoad14d" : {
+              "type" : "string"
+            },
+            "atcViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1Clicks" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageViews14d" : {
+              "type" : "string"
+            },
+            "surveyStartViews14d" : {
+              "type" : "string"
+            },
+            "addedToShoppingCartViews14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickCPA14d" : {
+              "type" : "string"
+            },
+            "brandSearch14d" : {
+              "type" : "string"
+            },
+            "mashupClickToPage" : {
+              "type" : "string"
+            },
+            "addToWatchlistClicks14d" : {
+              "type" : "string"
+            },
+            "lineItemExternalId" : {
+              "type" : "string"
+            },
+            "supplyCost" : {
+              "type" : "string"
+            },
+            "submitButtonCVR14d" : {
+              "type" : "string"
+            },
+            "offAmazonCPA14d" : {
+              "type" : "string"
+            },
+            "videoStartedCPA" : {
+              "type" : "string"
+            },
+            "advertiserName" : {
+              "type" : "string"
+            },
+            "videoThirdQuartile" : {
+              "type" : "string"
+            },
+            "successPageClicks14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPageCPA14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClickCVR14d" : {
+              "type" : "string"
+            },
+            "registrationConfirmPage14d" : {
+              "type" : "string"
+            },
+            "mashupClipCouponClickViews14d" : {
+              "type" : "string"
+            },
+            "brandSearchRate14d" : {
+              "type" : "string"
+            },
+            "declineViews14d" : {
+              "type" : "string"
+            },
+            "orderStartDate" : {
+              "type" : "string"
+            },
+            "advertiserCountry" : {
+              "type" : "string"
+            },
+            "dropDownSelectionCVR14d" : {
+              "type" : "string"
+            },
+            "pRPVr14d" : {
+              "type" : "string"
+            },
+            "homepageVisitClicks14d" : {
+              "type" : "string"
+            },
+            "mashupShopNowClick14d" : {
+              "type" : "string"
+            },
+            "registrationFormCPA14d" : {
+              "type" : "string"
+            },
+            "offAmazonECPP14d" : {
+              "type" : "string"
+            },
+            "offAmazonConversions14d" : {
+              "type" : "string"
+            },
+            "videoDownloads14d" : {
+              "type" : "string"
+            },
+            "eCPPRPV14d" : {
+              "type" : "string"
+            },
+            "emailInteraction14d" : {
+              "type" : "string"
+            },
+            "registrationFormViews14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement1CPA" : {
+              "type" : "string"
+            },
+            "successPageCVR14d" : {
+              "type" : "string"
+            },
+            "purchases14d" : {
+              "type" : "string"
+            },
+            "gameLoadCPA14d" : {
+              "type" : "string"
+            },
+            "percentOfPurchasesNewToBrand14d" : {
+              "type" : "string"
+            },
+            "dpv14d" : {
+              "type" : "string"
+            },
+            "purchaseButton14d" : {
+              "type" : "string"
+            },
+            "newToBrandPurchasesViews14d" : {
+              "type" : "string"
+            },
+            "successPage14d" : {
+              "type" : "string"
+            },
+            "gameInteractionCVR14d" : {
+              "type" : "string"
+            },
+            "eCPAtl14d" : {
+              "type" : "string"
+            },
+            "thankYouPageCVR14d" : {
+              "type" : "string"
+            },
+            "brandStoreEngagement4CVR" : {
+              "type" : "string"
+            }
+          }
+        }
+      }
+    }
+  ]
+}
+
+
