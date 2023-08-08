@@ -1,0 +1,84 @@
+documentationUrl: https://docsurl.com/dsp-campaign-report-dates
+connectionSpecification:
+  $schema: http://json-schema.org/draft-07/schema#
+  title: Dsp Report Downloader Spec
+  type: object
+  properties:
+    client_id:
+      title: Client ID
+      description:
+        The client ID of your Amazon DSP developer application.
+      type: string
+    client_secret:
+      title: Client Secret
+      description:
+        The client secret of your Amazon DSP developer application.
+      airbyte_secret: true
+      type: string
+    refresh_token:
+      title: Refresh Token
+      description:
+        Amazon DSP refresh token.
+      airbyte_secret: true
+      type: string
+    date:
+      title: Date
+      description:
+        The date for which you want the report for. In YYYY-MM-DD format
+      type: string
+    format:
+      title: format
+      type: string
+    time_unit:
+      title: time_unit
+      type: string
+    report_types:
+      title: report_types
+      type: object
+      properties:
+        report_type:
+          title: report_type
+          type: string
+        reqbody:
+          title: reqbody
+          type: object
+          properties:
+            metrics:
+              title: metrics
+              type: string
+        dimensions:
+          title: dimensions
+          type: string
+        key_figures:
+          title: key_figures
+          type: string
+    advertisers:
+      title: advertisers
+      type: object
+      properties:
+        advertiser_name:
+          title: advertiser_name
+          type: string
+        advertiser_id:
+          title: advertiser_id
+          type: string
+        region:
+          title: region
+          type: string
+        country:
+          title: country
+          type: string
+        aws_region:
+          title: aws_region
+          type: string
+        url:
+          title: url
+          type: string
+        active:
+          title: active
+          type: boolean
+  required:
+    - client_id
+    - client_secret
+    - refresh_token
+
